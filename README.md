@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+MUST WATCH->https://youtu.be/ZkDxdHXhz8I
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Defect Outlier Detection Dashboard
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)
+![Chart.js](https://img.shields.io/badge/Chart.js-4.4.0-green)
 
-In the project directory, you can run:
+A manufacturing defect analysis tool that identifies statistical outliers in production data using React and Chart.js.
 
-### `npm start`
+## 🚀 Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/defect-dashboard.git
+   cd defect-dashboard
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   install dependencies->npm install
+   start development->npm start
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Core Dependencies
+Package	Version	Purpose
+react	^18.2.0	UI library
+react-dom	^18.2.0	React renderer
+typescript	^4.9.5	Type checking
+Visualization
+Package	Version
+react-chartjs-2	^5.2.0
+chart.js	^4.4.0
+Development
+Package	Version
+@types/react	^18.0.26
+@types/react-dom	^18.0.9
+@types/chart.js	^2.9.37
 
-### `npm run build`
+🛠️ Available Scripts
+bash
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Start development server
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run tests
+npm test
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Build for production
+npm run build
 
-### `npm run eject`
+# Eject (advanced)
+npm run eject
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🔍 Features
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Statistical Analysis:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+        Z-Score outlier detection
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+        IQR (Interquartile Range) method
 
-## Learn More
+        Customizable thresholds
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Visualization:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        Interactive scatter plots
+
+        Color-coded outliers
+
+        Detailed tooltips
+
+    Data Handling:
+
+        Type-safe data processing
+
+        Automatic ID generation
+
+        Responsive design
+
+📚 Learning Resources
+
+    React Documentation
+
+    Chart.js Guide
+
+    TypeScript Handbook
+
+
+This README includes:
+
+1. Project badges for key technologies
+2. Clear installation instructions
+3. Dependency tables
+4. Embedded video tutorials with thumbnails
+5. Available scripts section
+6. Feature highlights
+7. Learning resources
+
+
